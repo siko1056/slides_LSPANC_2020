@@ -4,30 +4,18 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
+\usepackage{multirow}
 \usepackage{sourcecodepro}
-\usepackage[whole]{bxcjkjatype}
 \usepackage[backend=biber]{biblatex}
-\addbibresource{slides.bib}
+\addbibresource{slides_Ohlhus_LSPANC_2020.bib}
 \usepackage{listings}
 \lstset{
   language={},
   basicstyle=\footnotesize,
   keywordstyle=\color{blue},
-  morekeywords={classdef,endclassdef,properties,endproperties,methods,endmethods},
 }
-\usepackage{mathtools}
-\usepackage{multimedia}
-\usepackage{multirow}
-\usepackage{siunitx}
-\usepackage{pifont}
-\usepackage{tikz}
-\newcommand*\colorcheck[1]{%
-  \expandafter\newcommand\csname #1check\endcsname{\textcolor{#1}{\ding{52}}}%
-}
-\usepackage{fix-cm}
 \newcommand{\regmark}{\textsuperscript{\tiny\textregistered}}
 
-\colorcheck{green}
 
 \title[Numerical verification in high-level languages]
   {More system independent usage of numerical verification algorithms
@@ -44,6 +32,7 @@ January 29 -- 30, 2020
 
 \begin{document}
 \renewcommand*{\arraystretch}{1.2}
+
 
 \frame{\titlepage}
 \frame{\tableofcontents}
